@@ -1,0 +1,1 @@
+SELECT name AS "Nom de l'abonnement le plus cher", price AS 'Prix' FROM subscription ORDER BY Prix DESC LIMIT 1;

@@ -1,0 +1,1 @@
+SELECT id AS 'Identifiant' FROM movie WHERE UPPER(title) LIKE '%MOVIE%';

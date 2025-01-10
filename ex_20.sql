@@ -1,0 +1,1 @@
+SELECT CONCAT(UPPER(LEFT(lastname, 1)), LOWER(RIGHT(lastname, CHAR_LENGTH(lastname) - 1)), '-', firstname) AS 'Nom complet' FROM user ORDER BY birthdate DESC LIMIT 10;
